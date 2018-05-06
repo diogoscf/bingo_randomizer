@@ -42,12 +42,13 @@ td {
 
 button {
   font-size: 1.1rem;
+  border-radius: 10%;
 }
 
 #numbers_already_shown {
   font-size: 2em;
   border: 2px solid black;
-  max-width: 20%;
+  max-width: 40%;
   min-height: 40px;
   align-items: center;
   justify-content: center;

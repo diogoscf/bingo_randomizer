@@ -9,7 +9,7 @@ function validateChoice() {
     document.getElementById("generate").disabled = false;
     disableReason("")
   }
-  else if (num_array.length >= (max - min + 1)) {
+  else if (num_array.length >= (max - min + 1) && max > min) {
     document.getElementById("generate").disabled = true;
     disableReason("*All numbers have been shown. Please reset or change your input before continuing.");
   }
@@ -53,11 +53,14 @@ function resetAll() {
   document.getElementById("numbers_already_shown").innerHTML = num_array;
   document.getElementById("output").innerHTML = "";
   document.getElementById("generate").disabled = false;
-  disableReason("")
+  disableReason("");
+  validateChoice();
 }
 
 function inputChange() {
-  resetAll();
+  num_array.length = 0;
+  document.getElementById("numbers_already_shown").innerHTML = num_array;
+  document.getElementById("output").innerHTML = "";
   document.getElementById("generate").disabled = true;
   disableReason("*Please validate your input before generating numbers");
 }
