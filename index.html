@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bingo!</title>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="bingomaker.js"></script>
+</head>
+
+<body>
+  <div class="bodywrap">
+    <h1>Bingo Number Randomizer</h1>
+    <p>Choose minimal and maximal value:</p>
+    <table id="min-max">
+      <tr>
+        <td>Minimum:</td>
+        <td><input type="number" placeholder="example: 1" min="1" autocomplete="off" id="minimum" onChange="inputChange()"></input></td>
+      </tr><tr>
+        <td>Maximum:</td>
+        <td><input type="number" placeholder="example: 100" min="1" autocomplete="off" id="maximum" onChange="inputChange()"></input></td>
+      </tr><tr>
+        <td colspan="2" id="xtra"><button id="validate" onclick="validateChoice()">Validate</button></td>
+      </tr>
+    </table>
+    <p><button id="generate" onclick="generateNumber()" disabled="true">Generate a number</button></p><p id="reason">&nbsp;*Please validate your input before generating numbers</p>
+    <p>Current Output:</p>
+    <p style="text-align:center"><div id="output-div"><p id="output"></p></div></p>
+    <p>Already given numbers:</p>
+    <br />
+    <div id="numbers_already_shown"></div>
+    <p><button id="reset" onclick="resetAll()">Reset</button></p>
+  </div>
+</body>
+</html>

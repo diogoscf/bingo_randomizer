@@ -1,0 +1,70 @@
+body {
+  font-size: 1.1em;
+  margin: 20px;
+  text-align: center;
+  font-family: "Ubuntu";
+  background-image: url(bingo_bg.jpg);
+  margin: 0;
+}
+
+.bodywrap {
+  width: 70%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: white;
+}
+
+h1 {
+  font-family: "Oswald";
+}
+
+#reason {
+  color: red;
+  font-size: 0.8rem;
+}
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  padding-top
+}
+
+td {
+  padding: 15px;
+}
+
+#xtra {
+  text-align: center;
+}
+
+button {
+  font-size: 1.1rem;
+}
+
+#numbers_already_shown {
+  font-size: 2em;
+  border: 2px solid black;
+  max-width: 20%;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+#output-div {
+  font-size: 7rem;
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
