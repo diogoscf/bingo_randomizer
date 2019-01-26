@@ -1,0 +1,18 @@
+﻿{
+  "@lang" : {
+    "lang": "Français",
+    "short": "fr"
+  },
+  "big-title": "Tirage au Sort de Bingo",
+  "min-max-text": "Choisissez une valeur maximale et minimale:",
+  "min-td": "Minimum:",
+  "max-td": "Maximum:",
+  "validate": "Valider",
+  "generate": "Génerer un numéro",
+  "current-output": "Numéro Actuel:",
+  "already-shown": "Numéros déjà sortis:",
+  "reset": "Réinitialiser",
+  "err-validate-input": "*Veuillez valider avant de génerer des numéros",
+  "err-numbers-shown": "*Tous les numéros sont sortis. Veuillez réinitialiser ou changer votre entrée pour continuer.",
+  "input-err": "*Veuillez corriger des erreurs dans votre entrée"
+}

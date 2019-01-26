@@ -1,0 +1,18 @@
+﻿{
+  "@lang" : {
+    "lang": "Português",
+    "short": "pt"
+  },
+  "big-title": "Sorteador de Bingo",
+  "min-max-text": "Escolha um valor máximo e mínimo:",
+  "min-td": "Mínimo:",
+  "max-td": "Máximo:",
+  "validate": "Validar",
+  "generate": "Gerar um número",
+  "current-output": "Número Atual:",
+  "already-shown": "Números que já saíram:",
+  "reset": "Repor",
+  "err-validate-input": "*Por favor valide antes de gerar números",
+  "err-numbers-shown": "*Todos os números já saíram. Por favor reponha ou mude sua entrada para continuar.",
+  "input-err": "*Por favor corrija erros na sua entrada"
+}

@@ -1,0 +1,18 @@
+﻿{
+  "@lang" : {
+    "lang": "English",
+    "short": "en"
+  },
+  "big-title": "Bingo Number Randomizer",
+  "min-max-text": "Choose minimal and maximal value:",
+  "min-td": "Minimum:",
+  "max-td": "Maximum:",
+  "validate": "Validate",
+  "generate": "Generate a number",
+  "current-output": "Current Output:",
+  "already-shown": "Already given numbers:",
+  "reset": "Reset",
+  "err-validate-input": "*Please validate your input before generating numbers",
+  "err-numbers-shown": "*All numbers have been shown. Please reset or change your input before continuing.",
+  "input-err": "*Please correct errors in your input"
+}
